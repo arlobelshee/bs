@@ -10,6 +10,7 @@ CONFIG = {
   'layouts' => File.join(SOURCE, "_layouts"),
   'posts' => File.join(SOURCE, "_posts"),
   'post_ext' => "md",
+  'project_name' => 'bs',
   'theme_package_version' => "0.1.0"
 }
 
@@ -102,6 +103,13 @@ desc "Launch preview environment"
 task :preview do
   system "jekyll serve -w"
 end # task :preview
+
+desc "Build locally"
+task :build do
+  system "jekyll build --config _config.yml --dest ..\build\bs"
+end # task :preview
+
+task :default => :build
 
 # Public: Alias - Maintains backwards compatability for theme switching.
 task :switch_theme => "theme:switch"
