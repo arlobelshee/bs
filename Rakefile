@@ -106,7 +106,7 @@ end # task :preview
 
 desc "Build locally"
 task :build do
-  system "jekyll build --config _config.yml --dest ..\build\bs"
+  system "jekyll build --config _config.yml --dest ..\\build\\bs"
 end # task :preview
 
 task :default => :build
