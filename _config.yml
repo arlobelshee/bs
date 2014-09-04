@@ -2,7 +2,7 @@
 # Build config
 # =============================================
 
-root:             _gh_pages
+root:             ../build/bs
 dest:             <%= site.root %>
 assets:           <%= site.dest %>/assets
 
