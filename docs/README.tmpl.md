@@ -1,9 +1,10 @@
-# boilerplate [![NPM version](https://badge.fury.io/js/assemble-boilerplate.png)](http://badge.fury.io/js/assemble-boilerplate)
+# bs [![NPM version](https://badge.fury.io/js/bs.png)](http://badge.fury.io/js/bs) 
+
+> Arlo being Bloody Stupid. My crazy ideas.
 
 > Boilerplate for [Assemble](https://github.com/assemble/assemble)
 
 Please [create an issue](https://github.com/assemble/boilerplate/issues) if you find a bug or have a feature request.
-
 
 ## Getting Started
 
@@ -32,18 +33,16 @@ If everything installed correctly, running `grunt` in the command line should su
 
 Inside the [Gruntfile](./Gruntfile.js) you will find a few targets that should be removed after the first run. These are labeled accordingly.
 
-
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [grunt][].
 
 ## License
-Copyright (c) 2013 Jon Schlinkert
+Copyright (c) 2014 Arlo Belshee
 Licensed under the [MIT license](LICENSE-MIT).
+
 
 ***
 
-Project created by [Jon Schlinkert](https://github.com/jonschlinkert).
+Project created by [Arlo Belshee](https://github.com/arlobelshee).
 
-_This file was generated on Saturday, December 7, 2013._
-
-[grunt]: http://gruntjs.com
+_This file was generated on Thu Sep 04 2014 16:11:56._
