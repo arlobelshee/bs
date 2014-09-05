@@ -1,0 +1,6 @@
+name = "AlexFinn"
+license = "MIT"
+source_repo = "https://github.com/AlexFinn/simple-a"
+author = "alexfinn"
+description = "HMinimalistic Hugo theme"
+tags = ["blog", "company"]
